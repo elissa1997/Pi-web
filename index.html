@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <title>智能硬件管理</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="layui-container">
+
+        <div class="layui-row title">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md4
+                        layui-col-sm-offset3 layui-col-md-offset4">
+                智能硬件管理
+            </div>
+        </div>
+
+        <div class="layui-row card_list">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md4
+                        layui-col-sm-offset3 layui-col-md-offset4">
+
+                <div class="card_light1">
+                    <div class="light1_title">LED灯</div>
+                    <button class="layui-btn layui-btn-xs layui-btn-primary light1_refresh"> 刷新 </button>
+                    <hr>
+                    <img class="light1_img" src="./img/ledon.png" width="48.75rem" height="72.5rem">
+                    <div class="layui-btn-container light1_switch">
+                        <button class="layui-btn layui-btn-sm layui-btn-radius light1on"> 开启 </button>
+                        <button class="layui-btn layui-btn-sm layui-btn-radius light1off"> 关闭 </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="layui/layui.all.js"></script>
+<script src="./js/light.js"></script>   <!--引入light.js文件 -->
+<script>
+    $.backstretch(
+        [
+            "./img/bg1.jpg"
+        ]
+    );
+
+
+</script>
+
+</html>

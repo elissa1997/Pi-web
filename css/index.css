@@ -1,0 +1,42 @@
+.title{
+    font: normal 25px/normal Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5) ;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card_list{
+    margin-top: 1.5rem;
+}
+
+.card_light1,.card_light2,.card_light3,.card_light4{
+    margin-top: 1rem;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.58) ;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.58) ;
+    padding: 0.8rem;
+}
+
+.light1_title,.light2_title,.light3_title,.light4_title{
+    float: left;
+    font: normal 15px/normal Arial, Helvetica, sans-serif;
+    color: rgba(90,90,90,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+}
+
+
+.light1_switch,.light2_switch,.light3_switch,.light4_switch{
+    float: right;
+    width: 3rem;;
+}
+
+.light1_refresh,.light2_refresh,.light3_refresh,.light4_refresh{
+    float: right;
+    margin-bottom: 0.5rem;
+}
